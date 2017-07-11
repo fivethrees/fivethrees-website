@@ -1,0 +1,43 @@
+.navbar-brand-centered {
+    position: absolute;
+    left: 50%;
+    display: block;
+    width: 160px;
+    text-align: center;
+    background-color: transparent;
+    font-family: 'Pacifico', cursive;
+    font-size: 24px;
+}
+.navbar>.container .navbar-brand-centered,
+.navbar>.container-fluid .navbar-brand-centered {
+    margin-left: -80px;
+}
+.navbar-nav {
+  margin-bottom: 0px !important;
+  margin-top: 0px !important;
+}
+.link {
+  font-family: 'Roboto', sans-serif;
+}
+button.navbar-toggle.collapsed {
+  border: none;
+}
+.navbar-toggle, button.navbar-toggle.collapsed:hover, .navbar-toggle:hover {
+  background-color: #FFF !important;
+  border: none;
+  padding: 0px;
+}
+.menu {
+  font-size: 30px;
+}
+.navbar-default {
+  background-color: #FFF;
+  border-color: #FFF;
+}
+.navbar {
+  margin-bottom: 0px;
+}
+.introduction {
+  background-color: black;
+  height: 92vh;
+}
